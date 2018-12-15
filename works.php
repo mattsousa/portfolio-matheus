@@ -10,74 +10,71 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.php">
-          <span>
-            <img src="/image/matticon.png" alt="" class="icon">
-            Portfólio do Matheus
-          </span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="academic.php">Acadêmico</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="works.php">Trabalhos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.php">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-
-    </main>
-    <footer class="footer text-center text-light">
-      <div class="row infos">
-        <div class="col-md-12 col-lg-4 mb-2">
-          <h2 class="text-uppercase">Localização</h2>
+    <?php
+      include_once 'include/header.php';
+    ?>
+    <hr>
+    <main class="">
+      <div class="jumbotron">
+        <h2 class="display-4">Trabalhos</h2>
+        <p class="lead">
+          Como dito anteriormente, já tive experiências com várias plataformas e ambientes de desenvolvimento. Aqui serão listados os trabalhos que já realizei ao longo da minha carreira, embora curta mas cheia de desafios
+        </p>
+        <div class="bd-callout bd-callout-primary">
+          <h3>Meu Setup Atual</h3>
           <p>
-            Bairro Adrianópolis, Manaus, Amazonas
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div class="col-md-12 col-lg-4 mb-2">
-          <h2 class="text-uppercase">Redes Sociais</h2>
-          <div class="row">
-            <div class="col-3">
-              <img class="img-fluid" src="https://via.placeholder.com/64x64?text=place" alt="">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="card col-md-12 col-lg-7 mr-1 mb-2">
+            <img class="card-img-top" src="/image/setup_3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
-            <div class="col-3">
-              <img class="img-fluid" src="https://via.placeholder.com/64x64?text=place" alt="">
+          </div>
+          <div class="card col-md-12 col-lg-3 ml-1 mb-2">
+            <img class="card-img-top" src="/image/setup_1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
-            <div class="col-3">
-              <img class="img-fluid" src="https://via.placeholder.com/64x64?text=place" alt="">
+          </div>
+          <div class="col-1"></div>
+          <div class="card col-md-12 col-lg-4 mr-1 mb-2">
+            <img class="card-img-top" src="/image/setup_2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
-            <div class="col-3">
-              <img class="img-fluid" src="https://via.placeholder.com/64x64?text=place" alt="">
+          </div>
+          <div class="card col-md-12 col-lg-6 ml-1 mb-2">
+            <img class="card-img-top" src="/image/setup_4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
-        <div class="col-md-12 col-lg-4 mb-2">
-          <h2 class="text-uppercase">Sobre o site</h2>
-          <p class="text-left">
-            Este site é uma criação minha, Matheus Pinheiro de Sousa, Desenvolvedor de Websites, Desenvolvedor de apps para Android e Empreendedor.
-          </p>
-        </div>
       </div>
-      <div class="copyright text-center">
-        <p>Copyright &copy Matheus Sousa 2018 </p>
-      </div>
-    </footer>
+    </main>
+    <?php
+      include_once 'include/footer.php';
+    ?>
     <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/popper.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>

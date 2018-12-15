@@ -10,74 +10,47 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.php">
-          <span>
-            <img src="/image/matticon.png" alt="" class="icon">
-            Portfólio do Matheus
-          </span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="academic.php">Acadêmico</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="works.php">Trabalhos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.php">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-
-    </main>
-    <footer class="footer text-center text-light">
-      <div class="row infos">
-        <div class="col-md-12 col-lg-4 mb-2">
-          <h2 class="text-uppercase">Localização</h2>
-          <p>
-            Bairro Adrianópolis, Manaus, Amazonas
-          </p>
-        </div>
-        <div class="col-md-12 col-lg-4 mb-2">
-          <h2 class="text-uppercase">Redes Sociais</h2>
-          <div class="row">
-            <div class="col-3">
-              <img class="img-fluid" src="https://via.placeholder.com/64x64?text=place" alt="">
-            </div>
-            <div class="col-3">
-              <img class="img-fluid" src="https://via.placeholder.com/64x64?text=place" alt="">
-            </div>
-            <div class="col-3">
-              <img class="img-fluid" src="https://via.placeholder.com/64x64?text=place" alt="">
-            </div>
-            <div class="col-3">
-              <img class="img-fluid" src="https://via.placeholder.com/64x64?text=place" alt="">
-            </div>
+    <?php
+      include_once 'include/header.php';
+    ?>
+    <hr>
+    <main class="container">
+      <div class="jumbotron">
+        <h2 class="display-4">Contate me</h2>
+        <form class="form-row">
+          <div class="col-12 form-group">
+            <label for="fullname_input">Nome Completo</label>
+            <input type="text" class="form-control" id="fullname_input" placeholder="Ex: Matheus Pinheiro de Sousa" required>
           </div>
-        </div>
-        <div class="col-md-12 col-lg-4 mb-2">
-          <h2 class="text-uppercase">Sobre o site</h2>
-          <p class="text-left">
-            Este site é uma criação minha, Matheus Pinheiro de Sousa, Desenvolvedor de Websites, Desenvolvedor de apps para Android e Empreendedor.
-          </p>
-        </div>
+          <div class="col-md-12 col-lg-6 form-group">
+            <label for="email_input">Email válido</label>
+            <input type="password" class="form-control" id="email_input" placeholder="Ex: matheus@mattsousa.com.br" required>
+          </div>
+          <div class="col-md-12 col-lg-6 form-group">
+            <label for="email_ok_input">Confirme o email</label>
+            <input type="password" class="form-control" id="email_ok_input" placeholder="Ex: matheus@mattsousa.com.br" required>
+          </div>
+          <div class="col-12 form-group">
+            <select class="custom-select" required>
+              <option value="">Selecione o motivo do contato</option>
+              <option value="1">Contratar para fazer um website</option>
+              <option value="2">Contratar para fazer um app android</option>
+              <option value="3">Mapear requisitos de um serviço</option>
+              <option value="0">Outro motivo</option>
+            </select>
+            <div class="invalid-feedback">Example invalid custom select feedback</div>
+          </div>
+          <div class="col-12 form-group">
+            <label for="description_text">Mensagem</label>
+            <textarea class="form-control" id="description_text" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary col-12">Enviar</button>
+        </form>
       </div>
-      <div class="copyright text-center">
-        <p>Copyright &copy Matheus Sousa 2018 </p>
-      </div>
-    </footer>
+    </main>
+    <?php
+      include_once 'include/footer.php';
+    ?>
     <script type="text/javascript" src="/js/jquery.js"></script>
     <script type="text/javascript" src="/js/popper.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>

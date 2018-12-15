@@ -42,9 +42,36 @@ main{
   margin-top: 1em;
 }
 
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-color: rgb(238, 238, 238);
+    border-left-width: 1px;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+
+}
+
+.bd-callout-primary {
+    border-left-color: rgb(0, 123, 255);
+}
+
 footer{
   background-color: var(--footer-bg-color);
   padding-top: 2vh;
+}
+
+footer img{
+  width: 32px;
+  border-radius: 100%;
+  transition: 0.3s;
+  padding: 0.1vw;
+}
+
+footer img:hover{
+  background-color: white;
 }
 
 blockquote footer{
@@ -65,4 +92,8 @@ blockquote footer{
 
 .infos h2{
   font-weight: bolder;
+}
+
+#me_work{
+  width: 65%;
 }
