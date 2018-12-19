@@ -15,7 +15,7 @@
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="academic.php">Acadêmico</a>
+          <a class="nav-link" href="skills.php">Habilidades</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="works.php">Trabalhos</a>
