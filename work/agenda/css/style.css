@@ -1,0 +1,85 @@
+body{
+  background-color: #f3f3f3;
+}
+
+header{
+  padding: 12vh 8vw;
+  background-color: #f4dc42;
+  color: #1f1f1f;
+  text-align: center;
+}
+
+header h1{
+  font-size: 8vh;
+}
+
+main{
+  background-color: #ededed;
+  width: 85vw;
+  margin: 0 auto;
+  margin-top: 2vh;
+}
+
+main h2, main section, main form{
+  padding: 2vh 5vw;
+}
+
+main h2{
+  text-align: center;
+
+  padding-bottom: 1vh;
+  background-color: rgb(244, 220, 66, 0.625);
+  color: #1f1f1f;
+}
+
+#no-items{
+  text-align: center;
+  font-size: 2em;
+}
+
+#search input[type=text]{
+  width: 97%;
+  padding: 2.5vh 0;
+  padding-left: 3%;
+  border: 1vh solid rgb(31, 31, 31, 0.75);
+  font-weight: bold;
+  font-size: 2.75vh;
+  margin-bottom: 1vh;
+}
+
+table{
+  text-align: center;
+  width: 100%;
+}
+
+table button{
+  width: 100%;
+}
+
+section{
+  padding: 2vh 5vw;
+  padding-top: 1vh;
+}
+
+ul{
+  list-style-type: none;
+}
+
+#register-form input{
+  padding: 1vh 0.3vw;
+  width: 50%;
+}
+
+#input-text-new-contact{
+  margin-top: 2vh;
+}
+
+#register-form label{
+  font-size: 0.75em;
+}
+
+#register-form button{
+  margin-top: 1vh;
+  padding: 1vh 0;
+  width: 100%;
+}

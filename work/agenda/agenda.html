@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="utf-8">
+    <meta lang="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mattsousa Site</title>
+  </head>
+  <body>
+    <header>
+      <h1>Agenda telefônica</h1>
+    </header>
+    <main>
+      <h2 id="counting">Contatos</h2>
+      <form id="search">
+        <input type="text" id="input-text-search" placeholder="Digite Palavras Chaves">
+      </form>
+      <section>
+        <p id="no-items">Não há itens encontrados</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Nome do contato</th>
+              <th>Telefone do contato</th>
+              <th colspan="2">Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+          <!--
+            <tr>
+              <td>Nome 1</td>
+              <td>54654654</td>
+              <td>
+                <button type="button" class="update-btn">Atualizar</button>
+              </td>
+              <td>
+                <button type="button" class="remove-btn">Excluir</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Nome 2</td>
+              <td>69754245</td>
+              <td>
+                <button type="button" class="update-btn">Atualizar</button>
+              </td>
+              <td>
+                <button type="button" class="remove-btn">Excluir</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Nome 3</td>
+              <td>78213645</td>
+              <td>
+                <button type="button" class="update-btn">Atualizar</button>
+              </td>
+              <td>
+                <button type="button" class="remove-btn">Excluir</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Nome 4</td>
+              <td>65521347</td>
+              <td>
+                <button type="button" class="update-btn">Atualizar</button>
+              </td>
+              <td>
+                <button type="button" class="remove-btn">Excluir</button>
+              </td>
+            </tr>
+          -->
+          </tbody>
+        </table>
+      </section>
+      <form id="register-form">
+        <label for="input-text-new-name">Nome: </label>
+        <input type="text" id="input-text-new-name" placeholder="'Matheus Sousa'" required>
+        <br>
+        <label for="input-text-new-number">Número de contato: </label>
+        <input type="text" id="input-text-new-contact" placeholder="'97412547'" required>
+        <br>
+        <button type="submit" id="register">Cadastrar</button>
+      </form>
+    </main>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/storage.js"></script>
+  </body>
+</html>
