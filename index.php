@@ -23,6 +23,25 @@
           <a class="btn btn-outline-light btn-block" href="curriculo.pdf" role="button">Ou aqui para baixar o meu currículo</a>
         </p>
       </div>
+      <?php
+        if(isset($_SESSION['email'])){
+          if($_SESSION['email']){
+             echo '<div class="alert alert-success alert-dismissible fade show" role="alert">';
+             echo "Email enviado! Veja sua caixa de entrada ou span";
+             echo '<button type="button" class="close" data-dismiss="alert" aria-label="Close">';
+             echo '<span aria-hidden="true">&times;</span>';
+             echo '</button>';
+             echo '</div>';
+          }else{
+            echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">';
+            echo "Erro ao enviar o email !";
+            echo '<button type="button" class="close" data-dismiss="alert" aria-label="Close">';
+            echo '<span aria-hidden="true">&times;</span>';
+            echo '</button>';
+            echo '</div>';
+          }
+        }
+       ?>
       <hr>
       <div class="container jumbotron">
         <h2>Sobre mim</h2>

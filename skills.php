@@ -18,7 +18,11 @@
       <h2 class="display-4">Habilidades</h2>
       <div class="jumbotron">
         <ul class="list-group">
+<<<<<<< HEAD
           <!-- <li class="list-group-item bg-dark text-light">
+=======
+          <li class="list-group-item bg-dark text-light">
+>>>>>>> fb2005ac3c1fa143999ddd5baa7212e7e6d431e0
             <h3>Instalação de distribuições linux: Ubuntu, Debian, Fedora, Arch Linux e outros</h3>
           </li>
           <li class="list-group-item bg-dark text-light">
@@ -26,7 +30,11 @@
           </li>
           <li class="list-group-item bg-dark text-light">
             <h3>Experiência com suporte ao usuário (HelpDesk)</h3>
+<<<<<<< HEAD
           </li> -->
+=======
+          </li>
+>>>>>>> fb2005ac3c1fa143999ddd5baa7212e7e6d431e0
           <li class="list-group-item bg-dark text-light">
             <h3>Desenvolvimento Front-end</h3>
             <ul>
